@@ -24,6 +24,8 @@ int main()
 
     int dp[100]={0};
 
+    cout<<"hello";
+
     ladder(n,k,dp);
     cout<<dp[n];
 }
